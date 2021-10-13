@@ -1,0 +1,65 @@
+body{
+    background-color: yellowgreen;
+}
+
+.cont{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+.square{
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+h1, h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+}
+
+h3{
+    font-weight: lighter;
+    margin-top: -15px;
+}
+
+input{
+    border-radius: 5px;
+    border: 1px solid deepskyblue;
+    height: 20px;
+}
+
+ol{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#li2{
+    background-color: lightgray;
+    text-decoration-line: line-through;
+}
+
+#btn-add,
+#btn-clear,
+#btn-empty,
+#btn-save{
+    border-radius: 13px;
+    border: none;
+    padding: 3px;
+    color: white;
+    padding: 5px 15px;
+    font-weight: bolder;
+}
+
+#btn-add,
+#btn-clear{
+    background-color: deepskyblue;
+}
+
+#btn-empty{
+    background-color: firebrick;
+}
+
+#btn-save{
+    background-color: limegreen;
+}
