@@ -129,5 +129,80 @@ li {
 	margin-bottom: 20px;
 }
 
-
 /* End about us */
+
+
+/* CONTACT US */
+
+.cl-2{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-gap: 300px;
+    justify-content: center;
+}
+
+.contInfo p{
+	width: 70%;
+	text-align: left;
+	margin: 20px 0;
+}
+
+.underLine{
+	border-bottom: 2px solid orange;
+	border-spacing: 10px;
+	padding-bottom: 5px;
+}
+
+.info li{
+	display: block;
+	flex-direction: column;
+	margin-top: 10px;
+}
+
+.imgCont{
+	width: 20px;
+	height: 20px;
+	margin-top: 10px;
+}
+
+.imgMap{
+	width: 60%;
+	margin-top: 20px;
+}
+
+.inputDecor{
+	border: none;
+	padding: 12px 20px;
+	margin: 25px 0;
+	box-sizing: border-box;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.areaDecor{
+	border: none;
+	padding: 12px 20px;
+	margin-top: 25px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+
+.btn-submit{
+	border-radius: 3px;
+    border: none;
+	background-color: rgb(87, 85, 85);
+	color: orange;
+	padding: 10px 10px;
+	margin-top: 30px;
+}
+
+.foot p{
+	width: 100%;
+	margin-top: 20px;
+	padding: 20px;
+	color: white;
+	text-align: center;
+	background-color: rgb(87, 85, 85);
+}
+
+/* End contact us */
+
